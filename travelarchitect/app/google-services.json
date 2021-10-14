@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "1006908954252",
+    "firebase_url": "https://travelarchitect-71f88.firebaseio.com",
+    "project_id": "travelarchitect-71f88",
+    "storage_bucket": "travelarchitect-71f88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006908954252:android:514851d453670757",
+        "android_client_info": {
+          "package_name": "com.travelarchitect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006908954252-dm3bh3fhv6105dlu6mhng0n780lrourv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJiz88SKySv_GX0O7r1VoT6gmEYdV4-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006908954252:android:76d0357e975cb6f9",
+        "android_client_info": {
+          "package_name": "travelarchitect.com.travelarchitect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006908954252-0dergjlvkl1tl26bvf9hs01pj0v47tdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelarchitect.com.travelarchitect",
+            "certificate_hash": "7f57213e1f7dacaf10a73402c39063c1b18b9747"
+          }
+        },
+        {
+          "client_id": "1006908954252-v3e363ffuacta63u1kv7tufs3d5k8139.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelarchitect.com.travelarchitect",
+            "certificate_hash": "235298f7077d968255994455601a704ddff10431"
+          }
+        },
+        {
+          "client_id": "1006908954252-dm3bh3fhv6105dlu6mhng0n780lrourv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuJiz88SKySv_GX0O7r1VoT6gmEYdV4-U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006908954252-dm3bh3fhv6105dlu6mhng0n780lrourv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_item_id">
+
+
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <!--<ImageButton-->
+                            <!--android:layout_width="85sp"-->
+                            <!--android:layout_height="90sp"-->
+                            <!--android:src="@mipmap/ic_launcher_round"-->
+                            <!--android:layout_gravity="center"/>-->
+                        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingLeft="10sp">
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="22sp"
+                                android:text="Placeholder Title"
+                                android:id="@+id/scheduleItemTitle"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="5dp"/>
+                            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:text="Time spent: "
+                                    android:paddingTop="8sp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:text="X"
+                                    android:id="@+id/scheduleItemDuration"
+                                    android:paddingTop="8sp"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:text=" hrs"
+                                    android:paddingTop="8sp"/>
+                                <TextView android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="XX:XXam"
+                                    android:layout_gravity="center"
+                                    android:gravity="right"
+                                    android:textSize="24sp"
+                                    android:layout_marginRight="10dp"
+                                    android:id="@+id/scheduleItemTime"/>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="Tags: "
+                                android:id="@+id/scheduleTitleTags"
+                                android:paddingTop="8sp"/>
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text=" Parks, etc."
+                                android:paddingTop="2sp"
+                                android:id="@+id/scheduleItemType"/>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
